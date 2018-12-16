@@ -1,6 +1,0 @@
-Strings are constant
-their values
-cannot be changed
-after they are created
-Strings buffers
-string cannot
