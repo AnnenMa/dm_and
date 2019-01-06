@@ -1,4 +1,5 @@
 public class SelectionSort { 
+
     public static String[] strselsort (String []a) { //Aufgabe 2. Selection sort Algorithmus fuer Array von String
         int n = a.length;
         // One by one move boundary of unsorted subarray
@@ -18,6 +19,7 @@ public class SelectionSort {
         }
         return a;
     }
+
 
     public static void  showstr (String[]a){     //Die Funktion gibt array von Strings aus.
         for (int i=0;i<a.length; i++) {

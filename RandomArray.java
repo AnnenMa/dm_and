@@ -25,6 +25,16 @@ public class RandomArray  {                        //Aufgabe 1
         result = sumofelem/a.length;
         return result;
     }
+	
+	public static int f(int n) {                       //Fuer Aufgabe 3. Die Funktion zaelt die Anzahl von p-Aufrufen in der ersten
+		int anzahl = 0;                                //Haelfte des Ausdruckes auf
+		for (int i = 0; i < n; i++) {
+			for(int j = i; j < n; j++) {
+				anzahl+=2;
+			}
+		}
+		return anzahl;
+	}
 
     public static void main(String[] args) {
         int []b = new int [10];
